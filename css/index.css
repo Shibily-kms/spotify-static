@@ -1,0 +1,346 @@
+* {
+    font-family: 'CircularStd', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+/* Demmi */
+.btn-lg {
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding: 18px 30px 15px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.btn-lg:hover {
+    font-size: 15px;
+}
+
+.green-hover:hover{
+    color: #1ed760;
+}
+
+
+/* Header */
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 8% 15px 8%;
+    align-items: center;
+}
+
+.header img {
+    width: 135px;
+    height: auto;
+}
+
+.header .menu {
+    display: flex;
+}
+
+.header .menu ul {
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+    padding: 0;
+}
+
+.header .menu li {
+    padding: 0 20px 0 20px;
+
+}
+
+.header .menu .menu-item {
+    border-right: 1px solid white;
+    padding-right: 10px;
+
+}
+
+.header .menu .log-item {
+    padding-left: 10px;
+}
+
+.header .log-item li a {
+    color: rgb(230, 230, 230);
+}
+
+.menu a:hover, .log-item li a:hover {
+    color: #1ed760;
+}
+
+/* Section One */
+.section-one {
+    width: 100%;
+    height: 92vh;
+    background: url(../images/photos/bubbles-dktp.png) center center/100% 927px no-repeat, linear-gradient(to bottom right, rgb(240, 55, 166), rgb(108, 14, 224));
+    background-size: cover;
+    display: flex;
+    padding: 125px 12% 0 12%;
+    overflow: hidden;
+}
+
+.section-one .mobile {
+    background: url(../images/photos/mobile.png) top no-repeat;
+    width: 270px;
+    height: 450px;
+    background-size: cover;
+    padding: 65px 0 0 17px;
+
+}
+
+.section-one img {
+    width: 237px;
+
+}
+
+.section-one .content {
+    padding-left: 100px;
+    padding-top: 55px;
+}
+
+.section-one .content h1 {
+    font-size: 65px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: white;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+/* Section Two */
+
+.section-two {
+    width: 100%;
+    height: 95vh;
+    padding: 45px 10% 0 10%;
+}
+
+.section-two .title {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.section-two .item-div {
+    display: flex;
+
+}
+.section-two .item{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 15px ;
+    margin-right: 15px;
+}
+
+.section-two .item .icon-one{
+    background: url(../images/icon/play.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-left: 45px;
+}
+.section-two .item .icon-two{
+    background: url(../images/icon/playlist.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-left: 45px;
+}
+.section-two .item .icon-three{
+    background: url(../images/icon/make-it.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-left: 45px;
+}
+.section-two .item .icon-four{
+    background: url(../images/icon/data.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-left: 45px;
+}
+.section-two .item .content{
+    padding-top: 25px;
+    line-height: 25px;
+}
+
+/* Section Three */
+
+.section-three{
+    width: 100%;
+    height: 75vh;
+    background: linear-gradient(to bottom, rgb(176, 35, 194) , rgb(108, 14, 224));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+/* Section Four */
+
+.section-four {
+    width: 100%;
+    height: 95vh;
+    padding: 45px 10% 0 10%;
+    
+}
+.section-four .title {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.section-four a{
+    color: black;
+}
+.section-four a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.section-four .list{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 27px ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(235, 235, 235);
+    margin-top: 2px;
+}
+.section-four .list:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+/* Section Five */
+.section-five{
+    width: 100%;
+    height: 65vh;
+    background:url(../images/photos/lets-play.png) no-repeat center bottom, linear-gradient(to right, rgb(194, 35, 186) , rgb(108, 14, 224));
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.section-five h1{
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    padding: 85px 8% 50px 8%;
+}
+
+/* Footer Top */
+footer .top{
+    display: flex;
+    justify-content: space-between;
+}
+footer .top .logo img{
+    width: 140px;
+}
+footer .top .list{
+    display: flex;
+    color: white;
+}
+footer .top .list ul{
+    list-style: none; 
+    font-size: 14px;
+    line-height: 40px;
+    margin-right: 20px;
+    width: 200px;
+}
+footer .top .list ul li{
+    font-size: 15px;
+    font-weight: 300;
+}
+footer .top .list ul li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+footer .top .list ul li:first-child{
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+footer .top .icons-list{
+    display: flex;
+    padding-top: 30px;
+}
+footer .top .icons-list .icon{
+    background-color: rgba(59, 59, 59, 0.473);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    font-size: 20px;
+    padding-top: 5px;
+    color: white;
+}
+footer .top .icons-list .icon:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+/* Foooter Bottom */
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: grey;
+    margin-top: 70px;
+}
+footer .bottom .list ul{
+    display: flex;
+    list-style: none;
+    font-weight: 300;
+    padding: 0;
+}
+footer .bottom .list li{
+    margin-right: 25px;
+    cursor: pointer;
+}
+footer .bottom .list li:hover{
+    color: #1ed760;
+}
+footer .bottom .copyright{
+    text-align: end;
+}
+footer .bottom .copyright :first-child:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
